@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription au Workshop</title>
+    <link rel=" stylesheet"  href="style2.css">
+</head>
+<body class="dark mode">
+
+    <header>
+        <img src="logo.png.jpg" alt="Python Logo" class="logo"> 
+        <p> Incrivez-vous pour participer</p>
+    </header>
+
+    <div class="form-container">
+        <h2>Inscription au Workshop</h2>
+        <form>
+            <label for="name">Nom Complet:</label>
+            <input type="text" id="name" name="Nom Complet" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email" required>
+
+            <label for="Téléphone">Téléphone:</label>
+            <input type="number" id="Téléphone" name="Téléphone" required>
+
+            <label for="organisation">Organisation / Entreprise:</label>
+            <input type="text" id="organisation" name="Organisation / Entreprise" required>
+
+            <label for="workshope">Sélectionner votre session:</label>
+            <select id="workshope" name="workshope" >
+                <option disabled selected> Selectionnez-</option>
+                <option value="Debutant"> Debutant</option>
+                <option value="Intermediaire">Intermediaire</option>
+                <option value="Avance">Avance</option>
+            </select>
+
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2025-workshope tech</p>
+    </footer>
+</body>
+</html>
